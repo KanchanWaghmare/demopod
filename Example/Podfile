@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CustomViewHandler_Example' do
+  pod 'CustomViewHandler', :path => '../'
+
+  target 'CustomViewHandler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
