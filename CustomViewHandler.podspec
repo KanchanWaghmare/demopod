@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomViewHandler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomViewHandler.'
+  s.summary          = 'This is a demo library for creating custom UIViews'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'This is a demo library for creating custom UIViews with corner radius, border and rounded corners'
                        DESC
 
-  s.homepage         = 'https://github.com/Kanchan Waghmare/CustomViewHandler'
+  s.homepage         = 'https://github.com/KanchanWaghmare/demopod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kanchan Waghmare' => 'kanchanwa@cybage.com' }
-  s.source           = { :git => 'https://github.com/Kanchan Waghmare/CustomViewHandler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KanchanWaghmare/demopod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

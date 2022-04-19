@@ -1,0 +1,6 @@
+framework module CustomViewHandler {
+  umbrella header "CustomViewHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

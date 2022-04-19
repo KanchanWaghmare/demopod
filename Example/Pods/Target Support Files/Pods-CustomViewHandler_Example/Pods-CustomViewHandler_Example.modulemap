@@ -1,0 +1,6 @@
+framework module Pods_CustomViewHandler_Example {
+  umbrella header "Pods-CustomViewHandler_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

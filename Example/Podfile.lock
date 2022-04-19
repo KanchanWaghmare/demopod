@@ -1,0 +1,16 @@
+PODS:
+  - CustomViewHandler (0.1.0)
+
+DEPENDENCIES:
+  - CustomViewHandler (from `../`)
+
+EXTERNAL SOURCES:
+  CustomViewHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomViewHandler: 2695b78ae4a64a70b340ae51024c533aedb8b39f
+
+PODFILE CHECKSUM: 0a71ca40746fb4dc0db14d27da5c378de56aa463
+
+COCOAPODS: 1.11.3

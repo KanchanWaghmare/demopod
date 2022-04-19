@@ -1,0 +1,22 @@
+{
+  "name": "CustomViewHandler",
+  "version": "0.1.0",
+  "summary": "A short description of CustomViewHandler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kanchan Waghmare/CustomViewHandler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kanchan Waghmare": "kanchanwa@cybage.com"
+  },
+  "source": {
+    "git": "https://github.com/Kanchan Waghmare/CustomViewHandler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CustomViewHandler/Classes/**/*"
+}
