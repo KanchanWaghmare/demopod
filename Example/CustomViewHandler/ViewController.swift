@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import CustomViewHandler
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController
+{
+    @IBOutlet weak var demoView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        demoView.backgroundColor = UIColor.neonGreenColor
+        demoView.addBorderLine(width: 2.0, color: .maroonRedColor)
+        demoView.makeRounded()
     }
 
     override func didReceiveMemoryWarning() {

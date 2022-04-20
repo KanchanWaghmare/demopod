@@ -13,7 +13,8 @@
 		97AA022D338C0581AACA97D4CBC3E3B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A0FC4000C02B91DD7CD054A77414307A /* Pods-CustomViewHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B4D5EDD8617224B4DEC60FB7929778 /* Pods-CustomViewHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD3D9D45EBB917A48F080EA8C5462D04 /* CustomViewHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 420142B60396D81F769D2E7DF468DF38 /* CustomViewHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4E215B23BCBA4AB2D30BF1AD488C077 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C06F7C43449E148DA0BE98EE04BBE1 /* ReplaceMe.swift */; };
+		BCBF8710280FC60400E298C1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBF870F280FC60400E298C1 /* UIColor+Extension.swift */; };
+		C4E215B23BCBA4AB2D30BF1AD488C077 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C06F7C43449E148DA0BE98EE04BBE1 /* UIView+Extension.swift */; };
 		C8D84F9F87BA9A9147248A1AC9EA051A /* Pods-CustomViewHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEF34BEB4F2BA9ED96418680E868C70 /* Pods-CustomViewHandler_Example-dummy.m */; };
 		E32FA98FF67CFC89C2647B1DE3987365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EB6D27873D1C3DBD1A1718B490454FD3 /* Pods-CustomViewHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B39D5782EFDA10EACD681385E74C7C7 /* Pods-CustomViewHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,7 +53,7 @@
 		4D348B2DF78342CDF484DAEBDA542DE4 /* CustomViewHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomViewHandler.modulemap; sourceTree = "<group>"; };
 		4DE8FAEDAA12B36D08DB7D47F97EF587 /* Pods-CustomViewHandler_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomViewHandler_Example-Info.plist"; sourceTree = "<group>"; };
 		4E466FFA28FAC1A2CF5043899A307A62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		55C06F7C43449E148DA0BE98EE04BBE1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CustomViewHandler/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		55C06F7C43449E148DA0BE98EE04BBE1 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "CustomViewHandler/Classes/UIView+Extension.swift"; sourceTree = "<group>"; };
 		5B39D5782EFDA10EACD681385E74C7C7 /* Pods-CustomViewHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomViewHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
 		607D3901B14B65911A63397582C436B1 /* Pods-CustomViewHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomViewHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		66B4D5EDD8617224B4DEC60FB7929778 /* Pods-CustomViewHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomViewHandler_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD298440B80CCEECDA1324A72DBB143A /* Pods-CustomViewHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomViewHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B01B36E97D00585E3E658A159728C3AE /* Pods-CustomViewHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomViewHandler_Tests-dummy.m"; sourceTree = "<group>"; };
+		BCBF870F280FC60400E298C1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "CustomViewHandler/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C2A4CC4255C3835AD7D095C7A9439891 /* Pods-CustomViewHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomViewHandler_Example.modulemap"; sourceTree = "<group>"; };
 		CD1955B743BBACD976BA11F7429F5956 /* CustomViewHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomViewHandler.debug.xcconfig; sourceTree = "<group>"; };
 		DBEBFC0AE3A0F2609771D79D049FE077 /* Pods-CustomViewHandler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomViewHandler_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -103,7 +105,8 @@
 		3E83F8F89AD54DF3DFC7C6267701AF85 /* CustomViewHandler */ = {
 			isa = PBXGroup;
 			children = (
-				55C06F7C43449E148DA0BE98EE04BBE1 /* ReplaceMe.swift */,
+				55C06F7C43449E148DA0BE98EE04BBE1 /* UIView+Extension.swift */,
+				BCBF870F280FC60400E298C1 /* UIColor+Extension.swift */,
 				A989D48066FEBA500CAE936229A941D7 /* Pod */,
 				7C8F4B06BCE0D329E3E9C2B91AAE48F9 /* Support Files */,
 			);
@@ -367,8 +370,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBF8710280FC60400E298C1 /* UIColor+Extension.swift in Sources */,
 				62C8A5C8AFB536ED19602F4297CC502B /* CustomViewHandler-dummy.m in Sources */,
-				C4E215B23BCBA4AB2D30BF1AD488C077 /* ReplaceMe.swift in Sources */,
+				C4E215B23BCBA4AB2D30BF1AD488C077 /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

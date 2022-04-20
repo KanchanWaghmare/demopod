@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  'This is a demo library for creating custom UIViews with corner radius, border and rounded corners'
+  'This is a demo library for creating custom UIViews. It will include methods to add corner radius, border and rounded corners for a UIView. It also includes some customized UIColors which can be applied to a UIView'
                        DESC
 
   s.homepage         = 'https://github.com/KanchanWaghmare/demopod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kanchan Waghmare' => 'kanchanwa@cybage.com' }
+  s.author           = { 'Kanchan Waghmare' => 'kanchanwaghmare7@gmail.com' }
   s.source           = { :git => 'https://github.com/KanchanWaghmare/demopod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
